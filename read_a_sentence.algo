@@ -1,0 +1,35 @@
+ALGORITHM read a sentence
+VAR
+    a,b,c : INTEGER:=0;
+    e:string;
+
+BEGIN
+      write("entrer la phrase");
+      read(e);
+     // longueur d'une phrase
+      FOR i FROM 1 TO len(e) STEP step  DO
+         a:=a+i;  
+      END_FOR 
+      write(a);
+     
+    // nombre de mot dans une phrase
+    FOR i FROM 1 TO len(e) STEP step  DO
+       IF mid(b,i,1)  THEN
+       b:=b+i;  
+       END_IF 
+    END_FOR
+      write(b)
+    //nombre de voyelle dans la phrase
+    FOR i FROM 1 TO len(e) STEP step  DO
+       IF (len(e)='a'or len(e)='e'or len(e)='i' len(e)='o' len(e)='u' len(e)='y') THEN
+          c:=c+i;
+        set_instructions
+       END_IF
+        set_instructions
+    END_FOR
+       write(c);
+      
+     
+
+
+END
